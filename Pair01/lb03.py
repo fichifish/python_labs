@@ -1,0 +1,5 @@
+a = int(input())
+if ((a>=5 and a<=20) or (a>=105 and a<=120)): print(a, "років")
+elif (a%10 == 1): print(a, "рік")
+elif (a%10 > 1 and a%10 <=4): print(a, "роки")
+else: print(a, "років")
