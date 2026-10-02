@@ -4,7 +4,7 @@ for i in range(1, n):
     t = i
     while (t>0):
         d = t%10
-        if (d!=0 and i%d!=0): 
+        if (d==0 or (d!=0 and i%d!=0)):  
             flag = True
             break
         t //= 10
