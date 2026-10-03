@@ -1,0 +1,7 @@
+a = str(input())
+b = str(input())
+a = a.lower().replace(" ", "")
+b = b.lower().replace(" ", "")
+print(a, b)
+if (sorted(a) == sorted(b)): print("Рядки є анаграмами.")
+else: print("Рядки не є анаграмами.")
