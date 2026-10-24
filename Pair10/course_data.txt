@@ -1,0 +1,2 @@
+Artem;10-IT;12
+Fish;BSM;11
